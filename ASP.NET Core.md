@@ -1,4 +1,9 @@
-##ASP.NET 4.X 与 ASP.NET Core的对比**  
+## **ASP.NET 4.X 与 ASP.NET Core的对比**  
+** .NET Framework 和 .NET Core的主要区别是什么**  
+- **跨平台性**：.NET Core支持跨平台(Windows/Linux/macOS)，.NET Framework只支持Windows  
+- **依赖注入**：.NET Core内置轻量级DI容器，.NET Framework需要第三方库支持(如Autofac)  
+- **性能优化**: .NET Core 的运行时（CoreCLR）和 ASP.NET Core 性能更优，支持微服务场景。  
+
 ASP.NET Core 是一个跨平台的开源框架，用于在Windows、macOS或Linux上开发基于云的新式Web应用。
 ASP.NET Core具有以下优点：  
 - 生成Web UI和Web API的统一场景
